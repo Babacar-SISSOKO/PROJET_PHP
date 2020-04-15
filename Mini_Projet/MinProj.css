@@ -1,5 +1,5 @@
 /* Partie Connexion*/
-
+["admin":[{"nom":"Babacar","pass":"123"}], "joueur":[{"nom":"Aida","pass":"123"}]]
 *
 {
     padding:0px;
@@ -26,6 +26,7 @@ header h1
 {
     color:#fff;
     padding-top:30px;
+    font-size:50px;
 }
 
 header img
@@ -105,6 +106,12 @@ header img
     top:15px;
 }
 
+.error
+{
+    float: left;
+    color:red;
+}
+
 .Connexion
 {
     width:25%;
@@ -115,19 +122,80 @@ header img
     background-color:#00cbfe;
     color:white;
     font-size:20px;
+    font-weight:bold;
     border-radius:5px;
 }
 
 .div7 a
 {
     text-decoration: none;
-    color:#444;
+    color:silver;
     font-weight:bold;
     position:relative;
     right:50px;
     top:20px;
-    
 }
+
+/* Partie Interface Joueur*/
+
+.div8
+{
+    border:1px solid black;
+    width:95%;
+    height:100px;
+    margin:5px auto;
+    background-color:#51bfd0;
+}
+
+.div8 h2
+{
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.div8 input
+{
+    width:10%;
+    height:40px;
+    float:right;
+    position:relative;
+    right:20px;
+    bottom:50px;
+    background-color: #39ddd6;
+    color:white;
+    font-size:18px;
+}
+
+.div8 p
+{
+    position:relative;
+    right:550px;
+    bottom:110px;
+    font-weight:bold;
+    color:#fff;
+}
+
+.div9 h2
+{
+    position:relative;
+    top:20px;
+    display:inline-block;
+}
+
+.cercle {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background: green;
+    position: relative;
+    bottom:100px;
+    left:20px;
+}
+
+
+
 
 
 
