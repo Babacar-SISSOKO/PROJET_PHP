@@ -16,7 +16,7 @@ session_start();
         
         for($i=0; $i<2; $i++)
             {
-                if($Mabase["joueur"][$i]["nom"]==$log && $Mabase["joueur"][$i]["pass"]==$pass)
+                if($Mabase["joueur"][$i]["login"]==$log && $Mabase["joueur"][$i]["pass"]==$pass)
                 {
                    $_SESSION['authentification']="oui";
                    header("location:InterfaceJoueur.php");
@@ -26,7 +26,7 @@ session_start();
                   
                 }
     
-                else if ($Mabase["admin"][$i]["nom"]==$log && $Mabase["admin"][$i]["pass"]==$pass)
+                else if ($Mabase["admin"][$i]["login"]==$log && $Mabase["admin"][$i]["pass"]==$pass)
                 {
                     $_SESSION['authentification']="oui";
                     header("location:InterfaceAdmin.php");

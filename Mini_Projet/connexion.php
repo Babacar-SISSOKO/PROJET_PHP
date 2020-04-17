@@ -22,7 +22,7 @@
                         <h2>Login Form</h2>
                     </div>
                     
-                <form method="post" id="form-connexion">
+                <form method="post" id="form-connexion" action="Min_Proj_Traitement.php">
                     
                     <div class="div5">  
                         <div class="div6">
@@ -39,7 +39,7 @@
                         
                         <div class="div7">
                             <input class="Connexion" type="submit" value="Connexion" name="connexion">
-                            <a href="#"><h3>S'inscrire pour jouer?</h3></a>
+                            <div><a href="Creer_Compte_User.php"><h3>S'inscrire pour jouer?</h3></a></div>
                         </div>
                     </div>
                 </form>

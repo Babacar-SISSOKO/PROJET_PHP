@@ -1,5 +1,4 @@
 /* Partie Connexion*/
-["admin":[{"nom":"Babacar","pass":"123"}], "joueur":[{"nom":"Aida","pass":"123"}]]
 *
 {
     padding:0px;
@@ -41,7 +40,7 @@ header img
 {
     border:0px solid black;
     width:100%;
-    height:550px;
+    height:620px;
     background:url(Images/img-bg.jpg);
     background-size:cover;
     text-align: center;
@@ -131,12 +130,20 @@ header img
     text-decoration: none;
     color:silver;
     font-weight:bold;
+    font-size:20px;  
+}
+
+.div7 div
+{
+    /*border:1px solid black;*/
+    width:40%;
+    float:right;
     position:relative;
-    right:50px;
+    right:150px;
     top:20px;
 }
 
-/* Partie Interface Joueur*/
+/* Partie Interface Joueur et Interface Admin*/
 
 .div8
 {
@@ -168,11 +175,24 @@ header img
     font-size:18px;
 }
 
+.div8_1 input
+{
+    position:relative;
+    bottom:20px;
+}
+
+.div8_1 h2
+{
+    position:relative;
+    top:25px;
+    text-transform:uppercase;
+}
+
 .div8 p
 {
     position:relative;
-    right:550px;
-    bottom:110px;
+    right:630px;
+    bottom:70px;
     font-weight:bold;
     color:#fff;
 }
@@ -190,9 +210,232 @@ header img
     border-radius: 35px;
     background: green;
     position: relative;
-    bottom:100px;
+    bottom:75px;
     left:20px;
 }
+
+.div10
+{
+    border:1px solid black;
+    width:95%;
+    height:700px;
+    margin:-8px auto;
+    display:inline-block;
+    background-color:#F5F5F5;
+}
+
+.div2_1
+{
+    height:850px;
+}
+
+.div11
+{
+    float:left;
+    border:1px solid black;
+    border-radius: 10px;
+    width:30%;
+    height:450px;
+    margin:80px 2%;
+    background-color:;
+
+}
+
+.div11_1
+{
+    border:1px solid black;
+    border-radius: 10px 10px 0 0;
+    width:100%;
+    height:200px;
+    background-image:linear-gradient(white, #00cbfe);
+}
+
+.avatar
+{
+    border:1px solid black;
+    width:150px;
+    height:150px;
+    border-radius:75px;
+    margin:20px 20px;
+}
+
+.div11_1 p
+{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    text-transform: uppercase;
+    position:relative;
+    left:90px;
+    bottom:130px;
+}
+
+.div11_2
+{
+    width:100%;
+    height:50px;
+    border:1px solid black;
+    margin:5px 0;
+}
+
+.div11_2 p
+{
+    float:left;
+    margin:10px 10px;
+    font-size:25px;
+    color:#444;
+}
+
+.div11_2 img
+{
+    float:right;
+    margin:8px 10px;
+    width:10%;
+}
+
+.div12
+{
+    border:1px solid black;
+    border-radius:10px;
+    width:60%;
+    height:650px;
+    background-color:#fff;
+    float:right;
+    margin:10px 50px 5px 10px;
+}
+
+.div13{
+    border:1px solid black;
+    width:100%;
+    height:70px;
+}
+
+.div14
+{
+    border:1px solid black;
+    border-radius:10px;
+    width:90%;
+    height:520px;
+    margin:2px 30px;
+}
+
+/*Partie Création Compte utilisateur*/
+
+.div2_2
+{
+    height:750px;
+}
+
+.div12_1
+{
+    width:90%;
+    height:700px;
+}
+
+.div12_2
+{
+    float:left;
+    border:1px solid black;
+    width:60%;
+    height:600px;
+}
+
+.div12_2 h1 p
+{
+    position:relative;
+    right:250px;
+    font-weight: bold;
+    margin:15px 20px;  
+}
+
+.div12_2 span p
+{
+    color:silver;
+    position:relative;
+    right:125px;
+    bottom:10px;
+    font-size:25px;
+}
+
+.div12_2 label
+{
+    position: relative;
+    top:60px;
+    left:40px;
+    font-size:20px;
+    text-align: left;
+}
+
+.div12_2 input
+{
+    position: relative;
+    top:50px;
+    right:75px;
+    width:70%;
+    height:40px;
+    border-radius:5px;
+    margin:10px 20px;
+    
+}
+
+label
+{
+    display:block;
+}
+
+.labelNom
+{
+    position:relative;
+    right:80px;
+}
+
+.div12_3
+{
+    width:85%;
+    border:2px solid silver;
+    position:relative;
+    top:20px;
+}
+
+.AvatarJoueur
+{
+    border:5px solid #00cbfe;
+    float:right;
+    width:400px;
+    height:400px;
+    border-radius:200px;
+    position:relative;
+    margin:40px 60px 10px 5px;
+    
+}
+
+.inp
+{
+    width:15%;
+    height:40px;
+    font-size:20px;
+    font-weight: bold;
+    background-color:#00cbfe;
+    color:white;
+    margin-top:5px;
+    border-radius:2px;
+}
+
+.compt
+{
+    width:15%;
+    height:50px;
+    font-size:20px;
+    font-weight: bold;
+    background-color:#00cbfe;
+    color:white;
+    display:block;
+    position:relative;
+    top:90px;
+    right:180px;
+    border-radius:10px;
+}
+
 
 
 

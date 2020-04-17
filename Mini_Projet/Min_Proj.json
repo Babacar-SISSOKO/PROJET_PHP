@@ -1,6 +1,1 @@
-{
-    "admin":
-        ["prenom":"Babacar", "nom":"Sissoko", "pass":"123", "login":"babacar"],
-    "joueur":
-        ["prenom":"Aida", "nom":"Ba", "pass":"123", "login":"aida"]
-}
+{"admin":[{"prenom":"Babacar","nom":"Sissoko","pass":"123","login":"babacar"}],"joueur":[{"prenom":"Aida","nom":"Ba","pass":"123","login":"aida"}]}
