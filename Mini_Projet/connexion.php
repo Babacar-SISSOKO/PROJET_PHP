@@ -28,13 +28,13 @@
                         <div class="div6">
                             <input type="text" placeholder="Login" name="login" error="error-1">
                             <img src="Images/Icônes/ic-login.png">
-                            <div class="error" id="error1"></div>
+                            <div class="error" id="error-1"></div>
                         </div>
  
                         <div class="div6">
                             <input type="text" placeholder="Password" name="pass" error="error-2">
-                            <img src="Images/Icônes/ic-password.png" id="error2">
-                            <div class="error"></div>
+                            <img src="Images/Icônes/ic-password.png">
+                            <div class="error" id="error-2"></div>
                         </div>
                         
                         <div class="div7">
@@ -54,51 +54,51 @@
 </html>
 
 <script>
-    const inputs=document.getElementsByTagName("input");
-    for(input of inputs)
-        {
-            input.addEventListener("keyup", function(e){
-                if(e.target.hasAttribute("error"))
-                    {
-                        var idDivError=e.target.getAttribute("error");
-                        document.getElementById("idDivError").innerText="";
-                        
-                    }
-            })
-        }
     
-
-    document.getElementById("form-connexion").addEventListener("submit", function(e){
+    const inputs=document.getElementsByTagName('input');
+    for(input of inputs)
+         {
+             input.addEventListener("keyup", function(e){
+                 if(e.target.hasAttribute("error"))
+                     {
+                         var idDivError=e.target.getAttribute("error");
+                         document.getElementById(idDivError).innerText="";
+                     }
+             })
+         }
+    
+    
+    
+    let Myform=document.getElementById("form-connexion");
+    Myform.addEventListener('submit', function(e){
         
-        const inputs=document.getElementsByTagName("input");
-        var error=false;
-            for(input of inputs){
-                
-                if(input.hasAttribute("error"))
-                    {
-                        var idDivError=input.getAttribute("error");
-
-                        if(!input.value)
-                        {  
-                            document.getElementById("idDivError").innerText="Ce champ est obligatoire";
-                        }
-                            error=true;
-                        }
-                    
-                }
+        const inputs=document.getElementsByTagName('input');
+        let error=false;
         
-        if(error)
+        for(input of inputs)
             {
-                 return false;
-                 e.preventDefault();
-               
+                if(input.hasAttribute("error"))
+                {
+                    var idDivError=input.getAttribute("error");
+                    if(!input.value)
+                        {
+                            document.getElementById(idDivError).innerText="Ce champs est obligatoire";
+                            error=true; 
+                        }
+                   
+                }
+                
             }
+        
+      if(error)
+      {
+         e.preventDefault();
+         return false; 
+      }
             
         
-    });
-
-
-
+        
+    })
 </script>
 
 

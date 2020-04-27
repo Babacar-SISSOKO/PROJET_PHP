@@ -3,7 +3,7 @@
 <html>
     
     <head>
-        <link href="MinProj.css" rel="stylesheet">
+        <link href="MinProj1.css" rel="stylesheet">
     </head>
     
     <body>
@@ -50,16 +50,5 @@
         </div>
     
     </body>
-
-
-
-
-
-
-
-
-
-
-
 
 </html>

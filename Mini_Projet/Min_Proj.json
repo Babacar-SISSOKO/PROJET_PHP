@@ -1,1 +1,1 @@
-{"admin":[{"prenom":"Babacar","nom":"Sissoko","pass":"123","login":"babacar"}],"joueur":[{"prenom":"Aida","nom":"Ba","pass":"123","login":"aida"}]}
+{"admin":[{"prenom":"Babacar","nom":"Sissoko","pass":"123","login":"babacar"}],"joueur":{"0":{"prenom":"Aida","nom":"Ba","pass":"123","login":"aida","avatar":"Images\/Avatar\/Capture.PNG"},"3":{"prenom":"Amadou","nom":"Ba","login":"amadou","pass":"123","avatar":"Images\/Avatar\/Capture2.PNG"}}}

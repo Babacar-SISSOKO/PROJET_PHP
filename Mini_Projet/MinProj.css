@@ -109,6 +109,9 @@ header img
 {
     float: left;
     color:red;
+    position:relative;
+    bottom:190px;
+    left:80px;
 }
 
 .Connexion
@@ -192,8 +195,9 @@ header img
 {
     position:relative;
     right:630px;
-    bottom:70px;
+    bottom:80px;
     font-weight:bold;
+    font-size:20px;
     color:#fff;
 }
 
@@ -208,10 +212,17 @@ header img
     width: 70px;
     height: 70px;
     border-radius: 35px;
-    background: green;
+    /*background: green;*/
     position: relative;
-    bottom:75px;
+    bottom:65px;
     left:20px;
+}
+
+.cercle img
+{
+    max-width:100%;
+    max-height:100%;
+    border-radius:55%;
 }
 
 .div10
@@ -228,6 +239,8 @@ header img
 {
     height:850px;
 }
+
+
 
 .div11
 {
@@ -257,6 +270,13 @@ header img
     height:150px;
     border-radius:75px;
     margin:20px 20px;
+}
+
+.avatar img
+{
+    max-width:100%;
+    max-height:100%;
+    border-radius:50%;
 }
 
 .div11_1 p
@@ -319,7 +339,7 @@ header img
     margin:2px 30px;
 }
 
-/*Partie Création Compte utilisateur*/
+/*Partie Création Compte Utilisateur*/
 
 .div2_2
 {
@@ -435,6 +455,175 @@ label
     right:180px;
     border-radius:10px;
 }
+
+#error-1, #error-2,#error-3,#error-4,#error-5
+{
+    color:red;
+    font-weight:bold;
+}
+
+#error-3,#error-4,#error-5
+{
+    position:relative;
+    top:40px;
+    height:10px;
+    position:relative;
+    right:80px;
+}
+
+#error-1, #error-2
+{
+    position:relative;
+    top:40px;
+    right:80px;
+}
+
+
+.div12 > div:nth-child(n)
+{
+    display:none;
+}
+
+.div12 > div.active
+{
+    display:block;
+    background-color:#fff;
+}
+
+.active, .div11 a :hover
+{
+    background-color: red;
+}
+
+.par1
+{
+   position:relative;
+    right:100px;
+    top:30px;
+    color:#444;
+}
+
+.text1
+{
+    position:relative;
+    left:100px;
+    bottom:5px;
+    width:8%;
+    height:30px;
+    text-align: center;
+    font-size:30px;
+}
+
+.OK
+{
+    position:relative;
+    left:130px;
+    bottom: 10px;
+    background-color:dodgerblue;
+    color:white;
+    width:5%;
+    height:30px;
+}
+
+.title1
+{
+    float:left;
+    margin:5px 10px;
+}
+
+.par2
+{
+    float:left;
+    position:relative;
+    top:40px;
+    right:140px;
+    font-size:20px;
+}
+
+#tab2 p
+{
+    margin:10px 10px;
+    color:#444;
+}
+
+
+#tab3 h1
+{
+    float:left;
+    text-transform: uppercase;
+    margin:15px 20px;
+    color:#00cbfe;
+    font-weight:bold;
+}
+
+.div14 .label1, .div14 .label2, .div14 .label3
+{
+    float:left;
+    margin-top:30px;
+    margin-left:10px;
+    font-size:30px;
+}
+
+.div14 .inp1
+{
+    height:80px;
+    width:80%;
+    margin-top:5px;
+    position:relative;
+    background-color:#f7f7f7;
+    font-size:30px;
+}
+
+.div14 .inp2
+{
+    width:10%;
+    height:30px;
+    position:relative;
+    top:30px;
+    right:320px;
+    font-size:20px;
+    background-color:#f7f7f7;
+}
+
+.div14 .label3
+{
+    position:relative;
+    top:80px;
+    right:190px;
+}
+
+.select1
+{
+    position:relative;
+    top:38px;
+    left:180px;
+    width:60%;
+    height:50px;
+    font-size:20px;
+    background-color:#f7f7f7;
+}
+
+.plus
+{
+    float:right;
+    width:7%;
+    position:relative;
+    right:10px;
+    top:37px;
+}
+
+.enregistrer
+{
+    position:relative;
+    top:320px;
+    width:20%;
+    height:40px;
+    background-color:#39ddd6;
+    color:white;
+    font-size:25px;
+    left:95px;
+}
+
 
 
 
