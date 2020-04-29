@@ -7,6 +7,7 @@ session_start();
         header("location:connexion.php");
         exit();
     }
+require_once 'TestJS.php';
 ?>
 
 <!DOCTYPE html>
@@ -69,24 +70,53 @@ session_start();
                        <div class="div14 contenu1"><?php include "FormulaireInscription.php"?></div>
                        <div class="div14 contenu2">Liste des Joueurs par score</div>
                        <div class="div14 contenu3">
+                           
+                        <form method="post">
                            <label class="label1">Questions</label>
                            <input type="text" class="inp1">
                            <label class="label2">Nbre de Points</label>
                            <input type="number" class="inp2">
                            <label class="label3">Type de réponse</label>
-                           <select class="select1">
+                            
+                            <input type='text' name="getOptions" list="myOptions">
+                           <datalist id="myOptions">
                                <option>Donnez le type de réponse</option>
-                               <option>Réponse à choix multiples (avec une seule réponse possible)</option>
-                               <option> Réponse à choix multiples (avec plusieurs réponses possibles)</option>
-                               <option>Réponse texte à saisir</option>
+                               <option value="1">Réponse à choix multiples (avec une seule réponse possible)</option>
+                               <option value="2"> Réponse à choix multiples (avec plusieurs réponses possibles)</option>
+                               <option value="3">Réponse texte à saisir</option>
                                <input type="image" src="Images/ic-ajout-r%C3%A9ponse.png" class="plus">
-                               <input type="submit" value="Enregistrer" class="enregistrer">
+                           </datalist>
+                            
+                            <input type="submit" value="Enregistrer" class="enregistrer">
+                        </form>
+                           
+                           <script>
+                                let options=document.getElementsByName("getOptions")[0];
+
+                                options.addEventListener('input', function(){
+                                    let x=this.value;
+                                    if (x==1)
+                                            {
+                                              maFonction1(document.getElementById('myOptions'));
+                                            }
+                                        else if (x==2)
+                                            {
+                                               maFonction2(document.getElementById('myOptions')); 
+                                            }
+                                        else if (x==3)
+                                            {
+                                               maFonction3(document.getElementById('myOptions')); 
+                                            }
+                                    })
                                
-                           </select>
+                                    
+                               </script>
+                           
                        </div>
                     </div>
                     
                 </div>
+                    
             </div>
             
             

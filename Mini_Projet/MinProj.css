@@ -592,25 +592,6 @@ label
     right:190px;
 }
 
-.select1
-{
-    position:relative;
-    top:38px;
-    left:180px;
-    width:60%;
-    height:50px;
-    font-size:20px;
-    background-color:#f7f7f7;
-}
-
-.plus
-{
-    float:right;
-    width:7%;
-    position:relative;
-    right:10px;
-    top:37px;
-}
 
 .enregistrer
 {
@@ -623,11 +604,4 @@ label
     font-size:25px;
     left:95px;
 }
-
-
-
-
-
-
-
 
